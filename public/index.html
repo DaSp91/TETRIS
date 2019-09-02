@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TETRIS-NUOVA-VERSIONE</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+    <audio id = "musica" src = "tetris.mp3" loop ></audio>
+    <div id = "tetris">
+        <div id="bordo_gioco">
+            
+            <canvas id="canvas" width="280" height="540"> </canvas> 
+
+            <div id="titolo">   
+                TETRIS
+            </div>
+            <button id="play">
+                PLAY
+            </button>
+        
+        </div>
+
+        <div id ="stats_gioco">
+
+            <canvas id = "canv_next_tetr" width="120" height="120"></canvas>
+            <div id = "level">
+                Level: 1
+            </div> 
+            <div id = "nRows">
+                Rows: 0
+            </div>
+            <div id = "points">
+                Points: 0
+            </div>  
+        </div>
+    </div>
+    <script src="tetris.js" type = "module"> </script>
+</body>
+</html>

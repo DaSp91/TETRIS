@@ -1,0 +1,110 @@
+html,
+body {
+    background-color: steelblue;
+}
+
+#tetris {
+    position: relative;
+    top: 30px;
+    border: 5px solid rgb(251, 255, 0);
+    width: 600px;
+    height: 600px;
+    background:green;
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+}
+
+#bordo_gioco {
+    position: relative;
+    top: 10px;
+    border: 5px solid rgb(251, 255, 0);
+    width: 280px;
+    height: 540px;
+    float:left;
+    background:orange;
+    text-align: center;
+    margin: 20px;
+    overflow: hidden;
+}
+
+#titolo {
+    position: absolute;
+    font-family: 'Comic Sans', cursive;
+    font-size: 400%;
+    top: 10%;
+    left: 5%;
+    font-weight: bold;
+    color: green;
+    
+}
+
+#play {
+    position: absolute;
+    left: 18%;
+    bottom: 30%;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Comic Sans',cursive;
+    font-size: 350%;
+    color: white;
+    padding: 10px 18px;
+    border: solid 5px red;
+    background: orangered;
+}
+
+#stats_gioco {
+    position: relative;
+    top: 10px;
+    border: 5px solid rgb(251, 255, 0);
+    width: 220px;
+    height: 540px;
+    float: left;
+    background:orange;
+    text-align: center;
+    margin: 20px;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+#canv_next_tetr{
+    width: 120px;
+    height: 120px;
+    margin: 20px;
+}
+
+#level {
+    position: absolute;
+    font-family: 'Comic Sans', cursive;
+    font-size: 140%;
+    font-weight: bold;
+    left: 10%;
+    bottom: 50%;
+    color: black;
+}
+
+#nRows {
+    position: absolute;
+    left: 10%;
+    bottom: 30%;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Comic Sans',cursive;
+    font-size: 140%;
+    font-weight: bold;
+    color: black;
+}
+
+#points {
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Comic Sans',cursive;
+    font-size: 140%;
+    font-weight: bold;
+    color: black;
+}
